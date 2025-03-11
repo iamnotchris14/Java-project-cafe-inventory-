@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+<<<<<<< HEAD
 	<classpathentry kind="src" path=""/>
 	<classpathentry kind="output" path=""/>
+=======
+	<classpathentry kind="src" path="Catalogue"/>
+	<classpathentry kind="src" path="Login"/>
+	<classpathentry kind="src" path="MenuBeverage"/>
+	<classpathentry kind="src" path="MenuFood"/>
+	<classpathentry kind="src" path="Notification"/>
+	<classpathentry kind="src" path="Order"/>
+	<classpathentry kind="src" path="Payment"/>
+	<classpathentry kind="src" path="Reference"/>
+	<classpathentry kind="src" path="StockUpdate"/>
+	<classpathentry kind="output" path="bin"/>
+>>>>>>> a062ab463d00b14edd2debc815bbd6dbecd5172c
 </classpath>
