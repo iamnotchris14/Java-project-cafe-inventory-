@@ -18,8 +18,8 @@ public class Menu {
     {
         // this.itemId = itemId;
         // this.itemName = itemName;
-        // this.itemId = itemId;
-        // this.itemId = itemId;
+        // this.itemId = itemPrice;
+        // this.itemId = itemQty;
 
     }
 
