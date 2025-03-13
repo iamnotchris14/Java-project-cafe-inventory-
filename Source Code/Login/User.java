@@ -1,6 +1,5 @@
 /* filename: User.java*/
 /* parent class for login*/
-
 package JavaProjectCafeInventory;
 
 import java.util.*;

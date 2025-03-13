@@ -1,3 +1,4 @@
+package JavaProjectCafeInventory;
 import java.util.Scanner;
 
 public class MenuFood extends Menu {
