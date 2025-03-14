@@ -3,27 +3,34 @@
 /* invoke user input */
 package JavaProjectCafeInventory;
 
+import java.util.ArrayList;
+
+import testing.Obejct;
+
 public class Login
 {
-	protected String username,id;
+	protected String username, id;
 	protected int passcode;
 		
-	List<Users> listOfUsers = new ArrayList<Users>();
-		
-	listOfUsers.add(new Users("Siew ", "1234"));
-	listOfUsers.add(new Users("Jayden ", "2345"));
-	listOfUsers.add(new Users("JJ ", "3456"));
-	listOfUsers.add(new Users("Chris ", "4567"));
+	ArrayList<Obejct>Users = new ArrayList<Object>();
+	
+	Users.add("Siew ", "ID001", 1234);
+	Users.add("Jayden ", "ID002", 2345);
+	Users.add("JJ ", "ID003", 3456);
+	Users.add("Chris ", "ID004", 4567);
+	Users.add("Ryan ", "ID005", 5678);
 
-		
-	public User()
+	
+	public Login()
 	{
 			
 	}
 		
-	public User(String uName, String uId, int uPasscode)
+	public Login(String uName, String uId, int uPasscode)
 	{
-			
+		this.username = uName;
+		this.id = uId;
+		this.passcode = uPasscode;
 	}
 		
 	public void setUser(String uName, String uId, int uPasscode )
@@ -40,6 +47,7 @@ public class Login
 	}
 		
 	public String getId()
+	
 	{
 		return id;
 	}
@@ -48,4 +56,6 @@ public class Login
 	{
 		return passcode;
 	}
+	
+	boolean found = false;
 }
