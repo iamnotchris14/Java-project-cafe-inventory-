@@ -3,9 +3,7 @@
 /* invoke user input */
 package JavaProjectCafeInventory;
 
-import java.util.ArrayList;
-
-import testing.Obejct;
+import java.util.*;
 
 public class Login
 {
@@ -23,7 +21,7 @@ public class Login
 	
 	public Login()
 	{
-			
+		
 	}
 		
 	public Login(String uName, String uId, int uPasscode)
@@ -57,5 +55,15 @@ public class Login
 		return passcode;
 	}
 	
+	Scanner scln = new Scanner(System.in);
+	username scln = scan.nextLine();
+	id scln = scan.nextLine();
+	passcode scln = scan.nextInt();
+	
+	
 	boolean found = false;
+	
+	
+	
+	
 }
